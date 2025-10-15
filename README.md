@@ -9,8 +9,8 @@
 
 ### Demo & Documentation
 
-1) Watch Demo Video: [https://drive.google.com/your-demo-video-link](https://drive.google.com/file/d/1SlzhfOEl-c75NlnLcxhZoqtxeQEvlVVs/view?usp=sharing)
-2) Read Project Report: [https://drive.google.com/your-project-report-link](https://drive.google.com/your-project-report-link)
+1) Watch Demo Video: [https://drive.google.com/your-demo-video-link](https://drive.google.com/file/d/1SlzhfOEl-c75NlnLcxhZoqtxeQEvlVVs/view?usp=drive_link)
+2) Read Project Report: [https://drive.google.com/your-project-report-link](https://drive.google.com/file/d/1qYhZsDSxsU1H8B2xJrm2Vrir8BQ6ByXq/view?usp=sharing)
 
 ---
 
