@@ -64,7 +64,7 @@ Environment: Python 3.10+
 ---
 
 ## Project Structure
-
+```
 kb_rag_chatbot/
 ├─ app.py – Flask app (core backend logic)
 ├─ ingest.py – PDF/DOC loader & text chunking
@@ -82,7 +82,7 @@ kb_rag_chatbot/
 │   └─ index.html – Main web UI
 ├─ requirements.txt
 └─ README.md
-
+```
 ---
 
 ## Installation & Setup Guide (Windows)
@@ -161,7 +161,7 @@ Then open:
 http://127.0.0.1:5000/
 ```
 
-You’ll see the chatbot interface — upload files, ask questions, and explore the retrieved answers.
+You’ll see the chatbot interface - upload files, ask questions, and explore the retrieved answers.
 
 ---
 
