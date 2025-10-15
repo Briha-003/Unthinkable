@@ -1,0 +1,35 @@
+/* static/style.css */
+:root {
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#7dd3fc;
+  --muted:#93c5fd;
+  --text:#e6eef8;
+  --glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+body{margin:0;background:linear-gradient(180deg,#031029 0%, #081426 100%);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px;}
+.container{width:980px;max-width:96%;}
+header{margin-bottom:18px;}
+h1{margin:0;font-size:28px;}
+.subtitle{margin:6px 0 0;color:var(--muted);font-size:14px;}
+.card{background:var(--glass);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.6);margin-bottom:18px;}
+textarea, input[type="text"], input[type="search"]{width:100%;background:transparent;border:1px solid rgba(255,255,255,0.06);padding:12px;color:var(--text);border-radius:8px;font-size:15px}
+input[type="file"]{color:var(--muted)}
+.controls{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
+button{background:linear-gradient(90deg,var(--accent),#60a5fa);border:none;padding:10px 14px;border-radius:10px;color:#022;cursor:pointer;font-weight:600}
+.small{font-size:13px}
+.muted{color:rgba(255,255,255,0.55)}
+.hidden{display:none}
+.answer{white-space:pre-wrap;padding:12px;border-radius:8px;margin-top:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));}
+.contexts{list-style:none;padding-left:0;margin-top:6px}
+.contexts li{padding:10px;border-radius:8px;margin-bottom:8px;background:rgba(255,255,255,0.01);font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.contexts li a{color:var(--muted);text-decoration:none}
+.tldr{font-weight:600;margin-top:8px;color:#d9f8ff}
+.meta{font-size:13px;color:rgba(255,255,255,0.7)}
+.refine{margin-top:8px;display:flex;gap:8px;align-items:center}
+.refine input{width:auto;min-width:220px}
+.rating{margin-top:12px;display:flex;gap:8px;align-items:center}
+.rating input{flex:1;padding:8px;border-radius:8px}
+.like{background: rgba(29, 78, 216, 0.9); color:white}
+.dislike{background: rgba(239, 68, 68, 0.9); color:white}
